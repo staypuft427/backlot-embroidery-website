@@ -1,0 +1,26 @@
+{
+  "pageTitle": "Questions Before Production Starts.",
+  "pageText": "Helpful answers for production teams, costume departments and businesses requesting embroidery work.",
+  "items": [
+    {
+      "question": "Do you work with film, TV and theater productions?",
+      "answer": "Yes. Backlot Embroidery Co. is built for production wardrobe, prop, event and theater needs."
+    },
+    {
+      "question": "Can you handle rush orders?",
+      "answer": "Rush availability depends on quantity, artwork readiness and current production load. Use the quote form and include your deadline."
+    },
+    {
+      "question": "Can I upload artwork for a quote?",
+      "answer": "Yes. The quote form includes an optional artwork upload field."
+    },
+    {
+      "question": "Do you digitize logos?",
+      "answer": "Yes. We can prepare embroidery-ready files from clean artwork or existing production references."
+    },
+    {
+      "question": "What products can you embroider?",
+      "answer": "Common items include patches, name tapes, hats, jackets, polos, bags and wardrobe pieces."
+    }
+  ]
+}

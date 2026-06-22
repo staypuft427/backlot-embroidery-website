@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Recent Work.",
+  "pageText": "A cinematic gallery of embroidery, patches, name tapes, headwear and production wardrobe details.",
+  "items": [
+    {
+      "title": "Hero Backlot Patch",
+      "category": "Hero Image",
+      "image": "/assets/images/hero_patch.png"
+    },
+    {
+      "title": "J. Hawkins Name Tape",
+      "category": "Name Tapes",
+      "image": "/assets/images/name_tape.png"
+    },
+    {
+      "title": "Fire Department Patch",
+      "category": "Custom Patches",
+      "image": "/assets/images/fire_patch.png"
+    },
+    {
+      "title": "Stunt Team Jacket",
+      "category": "Logo Embroidery",
+      "image": "/assets/images/stunt_team.png"
+    },
+    {
+      "title": "Set Life Hat",
+      "category": "Headwear",
+      "image": "/assets/images/set_life_hat.png"
+    },
+    {
+      "title": "State Police Patch",
+      "category": "Custom Patches",
+      "image": "/assets/images/state_police_patch.png"
+    },
+    {
+      "title": "Medic Patch",
+      "category": "Name Tapes",
+      "image": "/assets/images/medic_patch.png"
+    },
+    {
+      "title": "Night Crew Patch",
+      "category": "Crew Patches",
+      "image": "/assets/images/night_crew_patch.png"
+    },
+    {
+      "title": "Ranger Patch",
+      "category": "Custom Patches",
+      "image": "/assets/images/ranger_patch.png"
+    },
+    {
+      "title": "Bishop Name Tape",
+      "category": "Name Tapes",
+      "image": "/assets/images/bishop_name_tape.png"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+backend:
+  name: github
+  repo: staypuft427/backlot-embroidery-website
+  branch: main
+
+local_backend: true
+media_folder: "assets/images"
+public_folder: "/assets/images"
+collections:
+  - name: "site"
+    label: "Site Settings"
+    files:
+      - label: "Business Info"
+        name: "business_info"
+        file: "content/site.json"
+        fields:
+          - { label: "Business Name", name: "businessName", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Homepage"
+        name: "home"
+        file: "content/home.json"
+        fields:
+          - { label: "Hero Eyebrow", name: "heroEyebrow", widget: "string" }
+          - { label: "Hero Title", name: "heroTitle", widget: "string" }
+          - { label: "Hero Text", name: "heroText", widget: "text" }
+          - { label: "Hero Image", name: "heroImage", widget: "image" }
+          - { label: "Primary Button Text", name: "ctaPrimaryText", widget: "string" }
+          - { label: "Primary Button URL", name: "ctaPrimaryUrl", widget: "string" }
+          - { label: "Secondary Button Text", name: "ctaSecondaryText", widget: "string" }
+          - { label: "Secondary Button URL", name: "ctaSecondaryUrl", widget: "string" }
+          - label: "Feature Boxes"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+      - label: "Services"
+        name: "services"
+        file: "content/services.json"
+        fields:
+          - { label: "Page Title", name: "pageTitle", widget: "string" }
+          - { label: "Page Text", name: "pageText", widget: "text" }
+          - label: "Services"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+      - label: "Gallery"
+        name: "gallery"
+        file: "content/gallery.json"
+        fields:
+          - { label: "Page Title", name: "pageTitle", widget: "string" }
+          - { label: "Page Text", name: "pageText", widget: "text" }
+          - label: "Gallery Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+      - label: "FAQ"
+        name: "faq"
+        file: "content/faq.json"
+        fields:
+          - { label: "Page Title", name: "pageTitle", widget: "string" }
+          - { label: "Page Text", name: "pageText", widget: "text" }
+          - label: "Questions"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+      - label: "Contact Page"
+        name: "contact"
+        file: "content/contact.json"
+        fields:
+          - { label: "Page Title", name: "pageTitle", widget: "string" }
+          - { label: "Page Text", name: "pageText", widget: "text" }
+      - label: "Quote Page"
+        name: "quote"
+        file: "content/quote.json"
+        fields:
+          - { label: "Page Title", name: "pageTitle", widget: "string" }
+          - { label: "Page Text", name: "pageText", widget: "text" }
