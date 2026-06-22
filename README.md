@@ -1,5 +1,3 @@
-# Backlot Embroidery Co.
+# Backlot Embroidery Co. HTML Website
 
-Static site optimized for Cloudflare Pages + Pages CMS + Jotform.
-
-See `docs/DEPLOYMENT_GUIDE.md`.
+GitHub-ready static HTML site with Pages CMS root `.pages.yml`, header logo image holder, and footer Trusted By image placeholders.

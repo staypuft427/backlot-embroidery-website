@@ -3,5 +3,32 @@
   "tagline": "Embroidery for Film, TV & Theater",
   "email": "info@backlotembroidery.com",
   "phone": "(323) 555-0197",
-  "location": "Los Angeles, CA"
+  "location": "Los Angeles, CA",
+  "logoImage": "/assets/images/logo-placeholder.svg",
+  "trustedBy": [
+    {
+      "name": "Netflix",
+      "image": "/assets/images/trusted-netflix.svg"
+    },
+    {
+      "name": "HBO",
+      "image": "/assets/images/trusted-hbo.svg"
+    },
+    {
+      "name": "Disney",
+      "image": "/assets/images/trusted-disney.svg"
+    },
+    {
+      "name": "Universal",
+      "image": "/assets/images/trusted-universal.svg"
+    },
+    {
+      "name": "Prime",
+      "image": "/assets/images/trusted-prime.svg"
+    },
+    {
+      "name": "WB",
+      "image": "/assets/images/trusted-wb.svg"
+    }
+  ]
 }
