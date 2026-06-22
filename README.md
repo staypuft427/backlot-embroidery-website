@@ -1,3 +1,13 @@
-# Backlot Embroidery Co. HTML Website
+# Backlot Embroidery Co. GitHub HTML Website
 
-GitHub-ready static HTML site with Pages CMS root `.pages.yml`, header logo image holder, and footer Trusted By image placeholders.
+Static HTML website designed for GitHub + Cloudflare Pages + Pages CMS.
+
+Included:
+- Cinematic layout, typography, and color scheme
+- Header logo image placeholder: `assets/images/logo-placeholder.svg`
+- Footer Trusted By image placeholders
+- Root `.pages.yml` for Pages CMS
+- Editable JSON files in `content/`
+- Jotform placeholders on Contact and Quote pages
+
+Upload all files in this folder to GitHub.

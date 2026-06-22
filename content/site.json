@@ -7,28 +7,28 @@
   "logoImage": "/assets/images/logo-placeholder.svg",
   "trustedBy": [
     {
-      "name": "Netflix",
-      "image": "/assets/images/trusted-netflix.svg"
+      "name": "Production",
+      "image": "/assets/images/trusted-production.svg"
     },
     {
-      "name": "HBO",
-      "image": "/assets/images/trusted-hbo.svg"
+      "name": "Costume",
+      "image": "/assets/images/trusted-costume.svg"
     },
     {
-      "name": "Disney",
-      "image": "/assets/images/trusted-disney.svg"
+      "name": "Wardrobe",
+      "image": "/assets/images/trusted-wardrobe.svg"
     },
     {
-      "name": "Universal",
-      "image": "/assets/images/trusted-universal.svg"
+      "name": "Theater",
+      "image": "/assets/images/trusted-theater.svg"
     },
     {
-      "name": "Prime",
-      "image": "/assets/images/trusted-prime.svg"
+      "name": "Props",
+      "image": "/assets/images/trusted-props.svg"
     },
     {
-      "name": "WB",
-      "image": "/assets/images/trusted-wb.svg"
+      "name": "Events",
+      "image": "/assets/images/trusted-events.svg"
     }
   ]
 }
