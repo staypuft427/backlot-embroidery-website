@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: staypuft427/backlot-embroidery-website
-  branch: main
+  branch: main/admin
 
 local_backend: true
 media_folder: "assets/images"
