@@ -1,6 +1,5 @@
 {
-  "pageEyebrow": "Get a Quote",
   "pageTitle": "Start Your Embroidery Quote.",
   "pageText": "Tell us what you need, upload artwork if you have it, and include deadline details if timing matters.",
-  "jotformEmbedCode": "<!-- Paste your Jotform quote form iframe/embed code here -->"
+  "jotformEmbedCode": "<script type=\"text/javascript\" src=\"https://form.jotform.com/jsform/261725706688065\"></script>"
 }
