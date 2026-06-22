@@ -1,0 +1,90 @@
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: site
+    label: Site Settings
+    type: file
+    path: content/site.json
+    fields:
+      - { name: businessName, label: Business Name, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: email, label: Email, type: string }
+      - { name: phone, label: Phone, type: string }
+      - { name: location, label: Location, type: string }
+
+  - name: homepage
+    label: Homepage
+    type: file
+    path: content/home.json
+    fields:
+      - { name: heroEyebrow, label: Hero Eyebrow, type: string }
+      - { name: heroTitle, label: Hero Title, type: string }
+      - { name: heroText, label: Hero Text, type: text }
+      - { name: heroImage, label: Hero Image, type: image }
+
+  - name: services
+    label: Services
+    type: file
+    path: content/services.json
+    fields:
+      - { name: pageTitle, label: Page Title, type: string }
+      - { name: pageText, label: Page Text, type: text }
+      - name: items
+        label: Service Items
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: body, label: Body, type: text }
+          - { name: image, label: Image, type: image }
+
+  - name: gallery
+    label: Gallery
+    type: file
+    path: content/gallery.json
+    fields:
+      - { name: pageTitle, label: Page Title, type: string }
+      - { name: pageText, label: Page Text, type: text }
+      - name: items
+        label: Gallery Items
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: category, label: Category, type: string }
+          - { name: image, label: Image, type: image }
+
+  - name: faq
+    label: FAQ
+    type: file
+    path: content/faq.json
+    fields:
+      - { name: pageTitle, label: Page Title, type: string }
+      - { name: pageText, label: Page Text, type: text }
+      - name: items
+        label: Questions
+        type: object
+        list: true
+        fields:
+          - { name: question, label: Question, type: string }
+          - { name: answer, label: Answer, type: text }
+
+  - name: contact
+    label: Contact Page
+    type: file
+    path: content/contact.json
+    fields:
+      - { name: pageTitle, label: Page Title, type: string }
+      - { name: pageText, label: Page Text, type: text }
+      - { name: jotformEmbedCode, label: Jotform Embed Code, type: text }
+
+  - name: quote
+    label: Quote Page
+    type: file
+    path: content/quote.json
+    fields:
+      - { name: pageTitle, label: Page Title, type: string }
+      - { name: pageText, label: Page Text, type: text }
+      - { name: jotformEmbedCode, label: Jotform Embed Code, type: text }
